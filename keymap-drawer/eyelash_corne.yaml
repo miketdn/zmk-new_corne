@@ -92,7 +92,7 @@ layers:
   - END
   - PG DN
   - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   - {type: held}
   - $$mdi:keyboard-esc$$
   - $$mdi:backspace-reverse-outline$$
