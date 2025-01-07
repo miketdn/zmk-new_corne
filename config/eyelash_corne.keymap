@@ -59,7 +59,7 @@
         SnippetMac: SnippetMac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LA(LS(NUMBER_4)))>;
+            bindings = <&kp LC(LS(LG(NUMBER_4)))>;
             label = "SNIPPETMAC";
         };
     };
@@ -83,8 +83,8 @@
             display-name = "NUMBER";
             bindings = <
 &kp ESCAPE    &kp N1           &kp N2          &kp N3           &kp N4        &kp N5                                      &msc SCRL_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp DELETE
-&bt BT_CLR    &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4                &msc SCRL_LEFT  &kp CAPS        &msc SCRL_RIGHT  &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW  &kp HOME  &kp PG_UP
-&kp CAPSLOCK  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &SnippetWindows  &SnippetMac   &rgb_ug RGB_EFF  &kp F24                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
+&bt BT_CLR    &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4                &msc SCRL_LEFT  &mkp LCLK       &msc SCRL_RIGHT  &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW  &kp HOME  &kp PG_UP
+&kp CAPSLOCK  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &SnippetWindows  &SnippetMac   &rgb_ug RGB_EFF  &kp F24                    &msc SCRL_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
                                                &trans           &trans        &trans                                                                       &kp ESCAPE       &kp DEL          &kp INSERT
             >;
 
