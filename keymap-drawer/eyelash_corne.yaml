@@ -91,7 +91,7 @@ layers:
   - RGB BRD
   - END
   - PG DN
-  - {t: Fn, h: toggle}
+  - {t: Fn, h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - $$mdi:keyboard-esc$$
@@ -189,9 +189,9 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - SCROLLLOCK
   - PAUSE BREAK
-  - F21
+  - {t: F21, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
