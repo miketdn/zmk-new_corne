@@ -82,10 +82,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp ESCAPE    &kp N1           &kp N2          &kp N3           &kp N4        &kp N5                                      &msc SCRL_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &trans
-&kp TAB       &trans           &trans          &trans           &trans        &trans                      &msc SCRL_LEFT  &mkp LCLK       &msc SCRL_RIGHT  &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW  &kp HOME  &kp PG_UP
-&kp CAPSLOCK  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &SnippetWindows  &SnippetMac   &rgb_ug RGB_EFF  &kp F24                    &msc SCRL_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                                               &sl 3            &kp LEFT_ALT  &trans                                                                       &kp ESCAPE       &kp DEL          &kp INSERT
+&kp ESCAPE    &kp N1           &kp N2          &kp N3           &kp N4        &kp N5                                &msc SCRL_UP              &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &trans
+&kp TAB       &trans           &trans          &trans           &mkp MB4      &mkp MB5                    &mkp MB4  &mkp LCLK       &mkp MB5  &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW     &kp RIGHT_ARROW  &kp HOME  &kp PG_UP
+&kp CAPSLOCK  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &SnippetWindows  &SnippetMac   &rgb_ug RGB_EFF  &kp F24              &msc SCRL_DOWN            &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
+                                               &sl 3            &kp LEFT_ALT  &trans                                                          &kp ESCAPE       &kp DEL          &kp INSERT
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
