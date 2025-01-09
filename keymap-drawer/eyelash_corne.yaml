@@ -66,11 +66,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:pan-left$$
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - '&mkp MB4'
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:pan-right$$
+  - '&mkp MB5'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
