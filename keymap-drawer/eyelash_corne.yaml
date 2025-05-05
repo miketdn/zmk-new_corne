@@ -83,13 +83,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&SnippetWindows'
   - '&SnippetMac'
-  - RGB EFF
+  - {t: '$$mdi:transfer$$', type: trans}
   - F24
   - $$mdi:pan-down$$
-  - RGB EFR
-  - RGB SPI
-  - RGB BRI
-  - RGB BRD
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - END
   - PG DN
   - {t: Fn, h: '$$mdi:gesture-tap-hold$$'}
@@ -171,8 +171,8 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:progress-download$$
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - PRINTSCREEN
   - F12
@@ -180,14 +180,14 @@ layers:
   - F23
   - F22
   - $$mdi:progress-download$$
-  - RGB OFF
-  - RGB ON
+  - RGB EFF
+  - RGB TOG
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - RGB BRD
+  - RGB BRI
+  - RGB SPD
+  - RGB SPI
   - SCROLLLOCK
   - PAUSE BREAK
   - {t: F21, type: held alternate}
