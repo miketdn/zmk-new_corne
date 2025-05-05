@@ -79,8 +79,8 @@ layers:
   - HOME
   - PG UP
   - $$mdi:apple-keyboard-caps$$
-  - RGB OFF
-  - RGB ON
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&SnippetWindows'
   - '&SnippetMac'
   - RGB EFF
@@ -180,8 +180,8 @@ layers:
   - F23
   - F22
   - $$mdi:progress-download$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB OFF
+  - RGB ON
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
