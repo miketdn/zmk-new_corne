@@ -180,7 +180,7 @@ layers:
   - F23
   - F22
   - $$mdi:progress-download$$
-  - RGB COLOR HSB(0,0,100)
+  - RGB EFF
   - RGB TOG
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
