@@ -86,10 +86,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - F24
   - $$mdi:pan-down$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - H
+  - J
+  - K
+  - L
   - END
   - PG DN
   - {t: Fn, h: '$$mdi:gesture-tap-hold$$'}
