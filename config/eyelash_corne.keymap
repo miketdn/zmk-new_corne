@@ -80,10 +80,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp ESCAPE    &kp N1        &kp N2        &kp N3           &kp N4          &kp N5                       &msc SCRL_UP              &kp N6          &kp N7          &kp N8        &kp N9           &kp N0    &trans
-&kp TAB       &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL        &kp LEFT_SHIFT  &trans             &mkp MB4  &mkp LCLK       &mkp MB5  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME  &kp PG_UP
-&kp CAPSLOCK  &trans        &trans        &SnippetWindows  &SnippetMac     &trans  &kp F24              &msc SCRL_DOWN            &trans          &trans          &trans        &trans           &kp END   &kp PG_DN
-                                          &sl 3            &kp LEFT_ALT    &trans                                                 &kp ESCAPE      &kp DEL         &kp INSERT
+&kp ESCAPE    &kp N1        &kp N2    &kp N3           &kp N4          &kp N5                       &msc SCRL_UP              &kp N6          &kp N7          &kp N8        &kp N9           &kp N0    &trans
+&kp TAB       &kp LEFT_GUI  &kp LALT  &kp LCTRL        &kp LEFT_SHIFT  &trans             &mkp MB4  &mkp LCLK       &mkp MB5  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME  &kp PG_UP
+&kp CAPSLOCK  &trans        &trans    &SnippetWindows  &SnippetMac     &trans  &kp F24              &msc SCRL_DOWN            &trans          &trans          &trans        &trans           &kp END   &kp PG_DN
+                                      &sl 3            &kp LEFT_ALT    &trans                                                 &kp ESCAPE      &kp DEL         &kp INSERT
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
